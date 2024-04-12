@@ -1,0 +1,9 @@
+services:
+  server:
+    image: aiminghee3/jenkins-test
+    container_name: node_server
+    restart: unless-stopped
+    volumes:
+      - ./:/app
+    ports :
+      -  80:80

@@ -8,3 +8,6 @@ app.get('/', (req, res) => {
 
 console.log('Server running at http://localhost:80/');
 app.listen(80);
+
+
+// 여기에 도커 컴포즈 파일 배포용, 푸시용 두 개 만들어서 실행하기

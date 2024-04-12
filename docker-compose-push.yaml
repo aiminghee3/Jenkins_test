@@ -2,8 +2,9 @@ version : '3.7'
 
 services:
   server:
+    platform: linux/amd64
     build:
-      context: .
+      context: ./
       dockerfile : dockerfile
     volumes:
       - ./:/app
