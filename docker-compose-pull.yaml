@@ -1,6 +1,6 @@
 services:
   server:
-    image: aiminghee3/jenkins-test
+    image: ${DOCKER_USER_ID}/jenkins-test
     container_name: node_server
     restart: unless-stopped
     volumes:

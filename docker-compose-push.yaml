@@ -6,6 +6,7 @@ services:
     build:
       context: ./
       dockerfile : dockerfile
+    image: jenkins_tests
     volumes:
       - ./:/app
     ports : 
